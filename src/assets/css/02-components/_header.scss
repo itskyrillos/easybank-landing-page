@@ -1,0 +1,27 @@
+.hero-header {
+    width: 100vw;
+    height: 550px;
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.img-header-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.img-header {
+    width: 90vw;
+    position: absolute;
+    top: -90px;
+}
+
+.cta-header {
+    @include cta-request;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -8,3 +8,53 @@ $grayish-blue: hsl(233, 8%, 62%);
 $light-grayish-blue: hsl(220, 16%, 96%);
 $very-light-gray: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
+$transparency: hsla(0, 0%, 100%, 0);
+
+// Typography
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500&display=swap");
+
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: $dark-blue;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.1em;
+    font-weight: 300;
+    color: $dark-blue;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: $dark-blue;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+h6 {
+}
+@mixin text {
+    font-size: 1em;
+    font-weight: 300;
+    color: $grayish-blue;
+}
+
+.header-text {
+    @include text;
+    text-align: center;
+}
+
+.advantages-text {
+    @include text;
+    text-align: center;
+}

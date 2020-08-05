@@ -1,0 +1,9 @@
+@mixin cta-request {
+    background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 35px;
+
+    font-weight: 500;
+    color: $white;
+}
