@@ -1,9 +1,13 @@
+header {
+    padding-bottom: 100px;
+    background-color: $very-light-gray;
+}
+
 .hero-header {
     width: 100vw;
-    height: 550px;
+    height: 425px;
     background-image: url("../images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: bottom;
 }
 
@@ -11,12 +15,20 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .img-header {
     width: 90vw;
     position: absolute;
-    top: -90px;
+    top: -50px;
+}
+
+.header-text {
+    @include text;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .cta-header {

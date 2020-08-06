@@ -1,5 +1,9 @@
 /*** PARAMETERS ***/
 
+html {
+    font-size: 10px;
+}
+
 // Colors
 $dark-blue: hsl(233, 26%, 24%);
 $lime-green: hsl(136, 65%, 51%);
@@ -18,43 +22,38 @@ body {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 4rem;
     font-weight: 300;
     color: $dark-blue;
-    line-height: 1.3em;
+    line-height: 5.5rem;
     text-align: center;
 }
 
 h2 {
-    font-size: 2.1em;
+    font-size: 3.5rem;
     font-weight: 300;
     color: $dark-blue;
-    line-height: 1.3em;
+    line-height: 4.5rem;
     text-align: center;
 }
 
 h3 {
-    font-size: 1.3em;
+    font-size: 2.3rem;
     font-weight: 300;
     color: $dark-blue;
-    line-height: 1.3em;
+    line-height: 1.3rem;
     text-align: center;
 }
 
 h6 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: $dark-blue;
 }
 @mixin text {
-    font-size: 1em;
+    font-size: 1.6rem;
     font-weight: 300;
+    line-height: 2.8rem;
     color: $grayish-blue;
 }
 
-.header-text {
-    @include text;
-    text-align: center;
-}
-
-.advantages-text {
-    @include text;
-    text-align: center;
-}

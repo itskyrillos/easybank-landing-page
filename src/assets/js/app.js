@@ -8,6 +8,7 @@ iconMenu.addEventListener("click", () => {
     console.log("Hello");
     backgroundNav.classList.toggle("show-nav");
     listNav.classList.toggle("show-nav");
+    iconMenu.classList.toggle("icon-close");
 
     if (listNav.classList.contains("show-nav")) {
         disableBodyScroll(listNav);
