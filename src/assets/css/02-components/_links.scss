@@ -1,0 +1,30 @@
+// Nav links
+
+.nav-link {
+    &:link {
+        font-size: 2.2em;
+        color: $dark-blue;
+        font-weight: 300;
+    }
+
+    &:visited {
+        font-size: 2.2em;
+        color: $dark-blue;
+        font-weight: 300;
+    }
+
+    &:hover {
+        font-size: 2.2em;
+        color: $dark-blue;
+        font-weight: 300;
+        text-decoration: none;
+    }
+
+    &:active {
+        font-size: 2.2em;
+        color: $dark-blue;
+        font-weight: 300;
+    }
+}
+
+// Footer links
