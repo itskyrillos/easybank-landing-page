@@ -35,7 +35,7 @@ nav {
     background-size: contain;
 }
 
-.list-nav-background {
+.nav-background {
     position: fixed;
     transition: 1s;
     top: 0;
@@ -48,7 +48,7 @@ nav {
     visibility: hidden;
 }
 
-.list-nav {
+.nav-list {
     background: $white;
     border-radius: 5px;
     transition: 1s;
@@ -58,7 +58,7 @@ nav {
     visibility: hidden;
 }
 
-.list-nav-links {
+.nav-list-links {
     height: 100%;
     list-style: none;
     padding: 30px 0px;

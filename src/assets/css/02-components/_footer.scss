@@ -1,3 +1,49 @@
 footer {
     background-color: $dark-blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-list-social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.social-logo {
+    height: 25px;
+    width: auto;
+}
+
+.footer-list-link {
+    text-align: center;
+}
+
+.footer-list-link {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-margin-top {
+    margin-top: 5px;
+}
+
+.link-margin-top {
+    margin-top: 15px;
+}
+
+.footer-request {
+    text-align: center;
+    margin-top: 35px;
+}
+.footer-copyright {
+    font-size: 1rem;
+    font-weight: 300;
+    color: $grayish-blue;
+    margin-top: 15px;
+}
+
+.footer-cta {
+    @include cta-request;
 }

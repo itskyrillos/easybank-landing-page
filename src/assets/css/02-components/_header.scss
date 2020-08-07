@@ -3,7 +3,7 @@ header {
     background-color: $very-light-gray;
 }
 
-.hero-header {
+.header-hero {
     width: 100vw;
     height: 425px;
     background-image: url("../images/bg-intro-mobile.svg");
@@ -11,14 +11,14 @@ header {
     background-position: bottom;
 }
 
-.img-header-container {
+.header-img-container {
     width: 100vw;
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-.img-header {
+.header-img {
     width: 90vw;
     position: absolute;
     top: -50px;
@@ -31,7 +31,7 @@ header {
     margin-bottom: 40px;
 }
 
-.cta-header {
+.header-cta {
     @include cta-request;
     display: block;
     margin-left: auto;
