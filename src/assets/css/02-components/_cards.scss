@@ -4,24 +4,22 @@
     padding-bottom: 10px;
 }
 
+.advantages-text {
+    @include text;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .advantages-img {
     height: 72px;
     width: 72px;
     margin-bottom: 30px;
 }
 
-.img-article {
-    overflow: hidden;
-    height: 200px;
-
-    img {
-        width: 100%;
-    }
-}
-
-.articles-section {
-    padding-top: 30px;
-    padding-bottom: 90px;
+.advantages-card-text {
+    @include text;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .article-card {
@@ -29,6 +27,15 @@
     background-color: $white;
     border-radius: 5px;
     margin-top: 30px;
+}
+
+.img-article {
+    overflow: hidden;
+    height: 200px;
+
+    img {
+        width: 120%;
+    }
 }
 
 .article-text-section {
@@ -43,7 +50,7 @@
 
 .article-text {
     margin-top: 10px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 300;
     line-height: 2rem;
     color: $grayish-blue;

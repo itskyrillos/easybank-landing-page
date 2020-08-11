@@ -5,10 +5,11 @@ header {
 
 .header-hero {
     width: 100vw;
-    height: 425px;
+    height: 50vh;
     background-image: url("../images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: cover;
 }
 
 .header-img-container {
@@ -22,6 +23,10 @@ header {
     width: 90vw;
     position: absolute;
     top: -50px;
+}
+
+.header-text-section {
+    padding-top: 5vh;
 }
 
 .header-text {

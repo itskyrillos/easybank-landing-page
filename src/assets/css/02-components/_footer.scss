@@ -4,11 +4,17 @@ footer {
     padding-bottom: 50px;
 }
 
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-list-social {
     display: flex;
     justify-content: space-between;
     margin-top: 35px;
     margin-bottom: 35px;
+    
 }
 
 .social-logo {

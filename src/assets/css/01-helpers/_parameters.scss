@@ -4,6 +4,10 @@ html {
     font-size: 10px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 // Colors
 $dark-blue: hsl(233, 26%, 24%);
 $lime-green: hsl(136, 65%, 51%);
@@ -56,4 +60,3 @@ h6 {
     line-height: 2.8rem;
     color: $grayish-blue;
 }
-

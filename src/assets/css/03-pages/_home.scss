@@ -4,13 +4,8 @@
     padding-bottom: 50px;
 }
 
-.advantages-text {
-    @include text;
-    text-align: center;
-    margin-top: 20px;
-}
-
 .articles-section {
     background-color: $very-light-gray;
     padding-top: 70px;
+    padding-bottom: 90px;
 }

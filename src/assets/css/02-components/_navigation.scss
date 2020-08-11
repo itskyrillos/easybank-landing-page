@@ -4,13 +4,15 @@ nav {
     left: 0;
     z-index: 1000;
     width: 100vw;
-    background-color: $very-light-gray;
+    background-color: $white;
     height: 70px;
 }
 
 .logo-nav {
     margin-top: 25px;
     margin-left: 10px;
+    width: auto;
+    height: 20px;
 }
 
 .icon-menu {
