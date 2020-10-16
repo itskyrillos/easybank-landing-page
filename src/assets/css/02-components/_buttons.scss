@@ -1,5 +1,11 @@
 @mixin cta-request {
-    background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+    background-image: linear-gradient(
+        to right,
+        $lime-green 0%,
+        $bright-cyan 50%,
+        $lime-green-light 100%
+    );
+    background-size: 200% auto;
     border: none;
     border-radius: 30px;
     padding: 13px 35px;
@@ -7,4 +13,10 @@
     font-weight: 500;
     font-size: 1.6rem;
     color: $white;
+    transition: 0.3s;
+
+    &:hover {
+        background-position: right center;
+        transform: scale(1.1);
+    }
 }

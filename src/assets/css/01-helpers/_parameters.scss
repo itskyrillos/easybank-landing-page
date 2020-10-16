@@ -6,11 +6,13 @@ html {
 
 body {
     overflow-x: hidden;
+    color: red;
 }
 
 // Colors
 $dark-blue: hsl(233, 26%, 24%);
 $lime-green: hsl(136, 65%, 51%);
+$lime-green-light: hsl(136, 61%, 71%);
 $bright-cyan: hsl(192, 70%, 51%);
 $grayish-blue: hsl(233, 8%, 62%);
 $light-grayish-blue: hsl(220, 16%, 96%);

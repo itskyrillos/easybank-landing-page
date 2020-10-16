@@ -12,14 +12,20 @@ footer {
 .footer-list-social {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     margin-top: 35px;
     margin-bottom: 35px;
-    
 }
 
 .social-logo {
-    height: 25px;
-    width: auto;
+    font-size: 3rem;
+    color: $white;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        color: $lime-green-light;
+    }
 }
 
 .footer-list-link {
